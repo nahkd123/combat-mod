@@ -1,19 +1,18 @@
 {
   "schemaVersion": 1,
-  "id": "modid",
+  "id": "nahkd-experimental-combat-mod",
   "version": "${version}",
 
-  "name": "Example Mod",
-  "description": "This is an example description! Tell everyone what your mod is about!",
+  "name": "nahkd's Experimental Combat Mod",
+  "description": "Do some wacky thing to modern combat mechanic. Use at your own risk of losing mental health!",
   "authors": [
-    "Me!"
+    "nahkd123"
   ],
   "contact": {
-    "homepage": "https://fabricmc.net/",
-    "sources": "https://github.com/FabricMC/fabric-example-mod"
+    "sources": "https://github.com/nahkd123/combat-mod"
   },
 
-  "license": "CC0-1.0",
+  "license": "UNLICENSED",
   "icon": "assets/modid/icon.png",
 
   "environment": "*",
@@ -29,10 +28,9 @@
   "depends": {
     "fabricloader": ">=0.14.19",
     "fabric-api": "*",
-    "minecraft": "~1.19.4",
+    "minecraft": "~1.20",
     "java": ">=17"
   },
   "suggests": {
-    "another-mod": "*"
   }
 }
